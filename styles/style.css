@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Spicy+Rice&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Maname&family=Patua+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Spicy+Rice&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Maname&family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 body {
   font-family: Arial, sans-serif;
@@ -27,7 +27,6 @@ body {
   font-family: Ubuntu;
 }
 
-
 .welcome-section {
   padding: 50px 20px;
 }
@@ -36,7 +35,6 @@ body {
   color: #333;
   margin-bottom: 20px;
   font-family: Maname;
-
 }
 
 .welcome-section h2 span {
@@ -59,7 +57,7 @@ body {
   color: rgb(230, 32, 141);
   border: none;
   border-radius: 5px;
-  font-size: 1.2em; 
+  font-size: 1.2em;
 }
 
 .explore-btn:hover {
@@ -72,7 +70,6 @@ body {
   margin-top: 40px;
 }
 .img-section img {
-
   width: 100%;
   height: 400px;
   object-fit: cover;
@@ -90,7 +87,7 @@ body {
 
 .category-item img {
   width: 100%;
-  max-width: 200px; 
+  max-width: 200px;
   height: auto;
 }
 
@@ -103,7 +100,7 @@ body {
 .historical-section {
   position: relative;
 }
-.historical-section h6{
+.historical-section h6 {
   font-family: Space Mono;
   color: rgb(203, 63, 142);
   font-weight: bold;
@@ -127,23 +124,21 @@ body {
   z-index: 2;
 }
 
-
 .feature-box1 {
-  bottom:200px;
+  bottom: 200px;
   left: -50px;
 }
 
 .feature-box2 {
-  top:10%; 
+  top: 10%;
   right: 5px;
 }
 
 .feature-box3 {
-  bottom: 60px; 
-  right:5px;
-  width:150px;
+  bottom: 60px;
+  right: 5px;
+  width: 150px;
   height: 70px;
-  
 }
 
 .icon-box img {
@@ -163,7 +158,9 @@ body {
 
 /* Responsiveness */
 @media (max-width: 768px) {
-  .feature-box1, .feature-box2, .feature-box3 {
+  .feature-box1,
+  .feature-box2,
+  .feature-box3 {
     position: static;
     margin-bottom: 10px;
   }
@@ -171,7 +168,6 @@ body {
 
 /* Table Section Styling */
 .details-section {
-
   padding: 40px 0;
 }
 
@@ -185,7 +181,7 @@ body {
 table {
   width: 100%;
   border-collapse: collapse;
-  
+
   font-size: 1rem;
 }
 
@@ -194,11 +190,10 @@ table {
   padding: 15px;
   text-align: left;
   color: #b76666;
-  
 }
 
 .table thead th {
-  background-color: #E7CCCC;
+  background-color: #e7cccc;
   color: #d03f3f;
   font-weight: bold;
 }
@@ -208,13 +203,12 @@ table {
 }
 
 .table tbody tr:hover {
-  background-color: #E7CCCC;
+  background-color: #e7cccc;
 }
 
 .table-bordered {
   border: 2px solid #d19b91;
 }
-
 
 table ul {
   padding-left: 20px;
@@ -229,7 +223,6 @@ table ul li {
 .tourism-section {
   padding: 50px 0;
   position: relative;
-  
 }
 
 /* Image size adjustment */
@@ -259,7 +252,7 @@ table ul li {
 .heart-box {
   bottom: 70px;
   right: 100px;
-  background-color: #d9cb9d; /* Light yellow background */
+  background-color: #d9cb9d;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
